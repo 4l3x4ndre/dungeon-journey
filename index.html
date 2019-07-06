@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Dungeon Journey</title>
+        <style>
+            #backcanvas {
+                background-color: #32373d;
+            }
+            canvas {
+                display: block;
+                margin: auto;
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+            }
+
+            body {
+                background-color: black;
+            }
+
+            h1 {
+                color: #bfbfbf;
+                font-family:sans-serif;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+
+        <h1>Dungeon Journey</h1>
+
+        <canvas id="backcanvas" width="1080" height="520"></canvas>
+        <canvas id="frontcanvas" width="1080" height="520"></canvas>
+        <script src="./GameManager.js"></script>
+        <script src="./collider.js"></script>
+        <script src="./drawer.js"></script>
+        <script src="./props.js"></script>
+        <script src="./controller.js"></script>
+        <script src="./bullets.js"></script>
+        <script src="./inputs.js"></script>
+        <script src="./enemies.js"></script>
+        <script src="./spawner.js"></script>
+        <script src="./stats.js"></script>
+        <script src="./effects.js"></script>
+        <script src="./main.js"></script>
+    </body>
+</html>
